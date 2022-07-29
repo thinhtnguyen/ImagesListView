@@ -8,7 +8,7 @@
 
 import UIKit
 
-public class UserViewController: BaseViewController, UITableViewDataSource, UITableViewDelegate {
+@objc public class UserViewController: BaseViewController, UITableViewDataSource, UITableViewDelegate {
 
     private var usersVM:[UserViewModel] = []
     private let cellIdentifier = "UserCell"
