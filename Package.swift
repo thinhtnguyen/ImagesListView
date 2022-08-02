@@ -32,7 +32,7 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .target(
             name: "ImagesListView",
-            dependencies: ["SwiftJWT"]),
+            dependencies: []),
         .testTarget(
             name: "ImagesListViewTests",
             dependencies: ["ImagesListView"]),
